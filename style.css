@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+
+}
+h2{
+    color:red;
+}
+.profile{
+    height:18vh;
+    width:20vh;
+    border: 2px solid black;
+    border-radius:50%;
+    margin: 5px;
+    position:relative;
+}
+img{
+     height:18vh;
+     width:20vh;
+     border: 2px solid black;
+     border-radius:50%;
+     position :absolute;
+     left:0px;
+}
+.background{
+    height : 30vh;
+    width :60vw;
+    border: 2px solid red;
+    border-radius:14px;
+    background-image: url("image.png");
+    background-size: contain;
+}
+.info{
+    position:relative;
+    background-color:antiquewhite;
+    height:50vh;
+    width:100vw;
+    margin:50px;
+    padding:50px;
+}
+p{
+    position:absolute;
+    bottom:110px;
+    text-decoration:underline;
+}
+
+#Explore{
+    position:absolute;
+    bottom:30px;
+    left:150px;
+    background-color:rgba(116, 38, 184, 0.76);
+    height:10vh;
+    width:50vw;
+    padding:10px;
+    border:2px solid transparent;
+    border-radius:5px;
+}
+#Explore:hover{
+    transition: ease-in-out;
+    border: 2px dotted black;
+    cursor:pointer;
+    border-radius:14px;
+    font-size:larger;
+    background-color:aquamarine;
+    animation: dash 0.5s linear infinite;
+}
+
+@keyframes dash {
+  from {
+    border-style: dashed;
+    border-width: 3px;
+  }
+  to {
+    border-style: dashed;
+    border-width: 3.5px;
+  }
+}
+navbar{
+    display:flex;
+    background-color:black;
+    color:white;
+    justify-content:space-between;
+    height:5vh;
+    width:100vw;
+    padding:20px;
+    margin:5px;
+}
+button:hover{
+    border:1px solid white;
+    border-radius:2px;
+    cursor:pointer;
+}
+
