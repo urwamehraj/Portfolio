@@ -22,4 +22,5 @@ skill.addEventListener('click',()=>{
 });
 exp.addEventListener('click',()=>{
     window.location.href="exp.html";
+
 });
