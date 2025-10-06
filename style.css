@@ -82,7 +82,7 @@ navbar{
     color:white;
     justify-content:space-between;
     height:5vh;
-    width:100vw;
+    width:60vw;
     padding:20px;
     margin:5px;
 }
@@ -91,5 +91,6 @@ button:hover{
     border-radius:2px;
     cursor:pointer;
 }
+
 
 
